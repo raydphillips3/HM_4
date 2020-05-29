@@ -188,12 +188,12 @@ function initializeTimer() {
                 alert("You have the new High Score!");
                 var initials = prompt("Enter your initials");
                 localStorage.setItem("initials", initials);  
-            //Show your score with new hig score
-                scoreEl.textContent = "Your score is " + yourScore + ". The current High Score is " + localStorage.getItem("highScore") + " by " + localStorage.getItem("initials") + "!";
+            //Show your score with new high score
+                scoreEl.textContent = "Your score is the new High Score! The current High Score is now  " + localStorage.getItem("highScore") + " by " + localStorage.getItem("initials") + "!";
                 
             } else {
             //Show your score 
-                scoreEl.textContent = "Your score is " + yourScore;
+                scoreEl.textContent = "Your score is " + yourScore + ". High Score is " + localStorage.getItem("highScore") + " by " + localStorage.getItem("initials") + "!";
             };
 
 
