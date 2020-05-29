@@ -5,19 +5,19 @@ Homework #4 Quiz
 * HTML with external CSS and JavaScript files/pages
 
 * Questions are set up in an array
-** The questions are text properties, with the actual question as the value in the objects within the question array
-** The answer choices values in arrays within objects
-** The correct answers are properties in objects within the question array as well
+* The questions are text properties, with the actual question as the value in the objects within the question array
+* The answer choices values in arrays within objects
+* The correct answers are properties in objects within the question array as well
 
 * The Start Button begins the quiz and starts the timer 
-** The quiz has a 60 second time limit
-** For Loops cycle through each question and the answer choices
-** The score is increases for each correct answer
-** The time remaining is decresed (by 5 seconds) for each incorrect answer
-** The quiz ends once the last question is answered or the time expires
-** The score is the number of questions correct plus the remaining seconds
-** Current score and High Score are displayed 
-** If current score is the High Score, the player is first prompted to enter their initials
+* The quiz has a 60 second time limit
+* For Loops cycle through each question and the answer choices
+* The score is increases for each correct answer
+* The time remaining is decresed (by 5 seconds) for each incorrect answer
+* The quiz ends once the last question is answered or the time expires
+* The score is the number of questions correct plus the remaining seconds
+* Current score and High Score are displayed 
+* If current score is the High Score, the player is first prompted to enter their initials
 
 * Replay button resets the quiz to start again
 
